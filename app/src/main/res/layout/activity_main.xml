@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#ffffff"
+    tools:context="com.example.android.naija_made.MainActivity"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    android:orientation="horizontal"
+    android:layout_weight="3"
+
+    <ImageView
+        android:id="@+id/naija1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/naija1" />
+
+    <ImageView
+        android:id="@+id/naija5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/naija5"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/naija6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/naija3"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Think Naija, Think About Us"
+        android:textColor="#00C853"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="we promote strictly made in naija goods, as we help in stepping up your goods to world standard. We also help in exporting your agricultural produce. "
+        android:textColor="#00C853"
+        android:textSize="17sp"
+        android:textAlignment="gravity"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us"
+        android:textColor="#00C853"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/home"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Head office:Ahmadu Bello way, Garki Abuja"
+            android:textColor="#00C853"
+            android:textSize="18sp"
+            android:layout_weight="4"
+            android:gravity="fill_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/phone"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="08137393147"
+            android:textColor="#00C853"
+            android:textSize="20sp"
+            android:layout_weight="4"
+            android:gravity="fill_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+        android:layout_weight="5"
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:src="@drawable/clock"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Opening-Hours : Monday - Thursday ; 8am-4pm. Friday 8am-2pm"
+            android:textColor="#00C853"
+            android:textSize="18sp"
+            android:layout_weight="4"
+            android:gravity="fill_vertical"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow us on social media"
+        android:textColor="#00C853"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal"
+        android:layout_weight="3"
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fb"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:background="#00C853" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/google"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:background="#00C853"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mail"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:background="#00C853"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/twitter"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:layout_gravity="end"
+            android:background="#00C853"/>
+
+    </LinearLayout>
+
+</LinearLayout>
